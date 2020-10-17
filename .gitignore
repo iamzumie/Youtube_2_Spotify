@@ -5,12 +5,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Files
-client_secrets.json
-.cache
-secrets.py
-token.pickle
-
 # C extensions
 *.so
 
@@ -145,3 +139,8 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# FILES
+!/client_secrets.json
+!/.cache
+!/secrets.py
+!/token.pickle
