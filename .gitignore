@@ -144,3 +144,4 @@ cython_debug/
 !/.cache
 !/secrets.py
 !/token.pickle
+!/.cache
