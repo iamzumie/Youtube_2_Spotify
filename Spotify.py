@@ -26,8 +26,8 @@ class SpotifyClient(object):
             token = token_info['access_token']
 
         else:
-            now = int(time.time())
-            print(str(((token_info)['expires_at'] - now) // 60) + ' min')
+            # now = int(time.time())
+            # print(str(((token_info)['expires_at'] - now) // 60) + ' min')
             token = token_info['access_token']
         self.token = token
 
