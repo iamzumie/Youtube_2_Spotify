@@ -140,7 +140,7 @@ dmypy.json
 cython_debug/
 
 # FILES
-/client_secrets.json
-/.cache
-/secrets.py
-/token.pickle
+!/client_secrets.json
+!/.cache
+!/secrets.py
+!/token.pickle
