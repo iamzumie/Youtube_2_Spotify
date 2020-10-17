@@ -1,0 +1,8 @@
+# For youtube:
+
+pip install google-auth
+pip install google-auth-oauthlib
+pip install google-api-python-client
+
+# For Spotify
+pip install requests
